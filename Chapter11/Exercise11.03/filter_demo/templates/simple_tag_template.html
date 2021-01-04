@@ -1,0 +1,12 @@
+<html>
+<head>
+  <title>Simple Tag Template Example</title>
+</head>
+<body>
+{% load simple_tag inclusion_tag %}
+{% greet_user "Hey" username %}
+<br />
+<span class="message">You have read the following books till date</span>
+{% book_list books %}
+</body>
+</html>
