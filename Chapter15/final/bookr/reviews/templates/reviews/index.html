@@ -1,0 +1,12 @@
+{% extends 'reviews/base.html' %}
+
+{% block content %}
+  {% if viewed_books %}
+  Recently viewed books:
+  <ul>
+      {% for book in viewed_books %}
+      <li><a href="/books/{{ book.id }}">{{ book.title }}</a></li>
+      {% endfor %}
+  </ul>
+  {% endif %}
+{% endblock %}

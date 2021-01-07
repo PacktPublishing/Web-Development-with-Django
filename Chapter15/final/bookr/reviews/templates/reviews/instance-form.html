@@ -1,0 +1,23 @@
+{% extends 'reviews/base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}
+    {% if instance %}
+        Editing {{ model_type }} {{ instance }}
+    {% else %}
+        New {{ model_type }}
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+<h2>
+    {% if instance %}
+        Editing {{ model_type }} <em>{{ instance }}</em>
+    {% else %}
+        New {{ model_type }}
+    {% endif %}
+</h2>
+{% if related_instance and related_model_type %}
+<p>For {{ related_model_type }} <em>{{ related_instance }}</em></p>
+{% endif %}
+{% crispy form %}
+{% endblock %}

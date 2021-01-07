@@ -1,0 +1,68 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro&display=swap">
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+    <title>{% block title %}Bookr{% endblock %}</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+          <a class="navbar-brand" href="/">{% block brand %}<img src="{% static 'logo.png' %}">{% endblock %}</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              </li>
+			{% if user.is_authenticated %}
+              <li class="nav-item">
+                <a class="nav-link" href="/accounts/logout">Logout</a>
+              </li>
+			{% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="/accounts/login">Login</a>
+              </li>
+			{% endif %}
+            </ul>
+            <form action="{% url 'book_search' %}" class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                     name="search" value="{{ search_text }}" minlength="3">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+			{% if user.is_authenticated %}
+			<a class="nav-link" href="/accounts/profile">User:  {{ user.username }}</a>
+			{% endif %} 
+          </div>
+        </nav>
+        <div class="container-fluid">
+          {% for message in messages %}
+            <div class="alert alert-{% if message.level_tag == 'error' %}danger{% else %}{{ message.level_tag }}{% endif %}"
+                 role="alert">
+              {{ message }}
+            </div>
+          {% endfor %}
+        {% block content %}
+        {% endblock %}
+        </div>
+  <!-- Copyright -->
+  <footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://www.packtpub.com"> Packt Publications</a>
+      <p>Website by: Packt Publications</p>
+      <p>Contact information: <a href="mailto:email@example.com">email@example.com</a></p>
+    </div>
+  </footer>
+  <!-- Copyright -->
+  </body>
+</html>
