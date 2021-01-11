@@ -1,0 +1,20 @@
+[Unit]
+Description=Book Gunicorn daemon
+Requires=gunicorn-bookr.socket
+After=network.target
+
+[Service]
+EnvironmentFile=/home/bookr/bookr/production.conf
+Type=notify
+User=bookr
+Group=bookr
+RuntimeDirectory=gunicorn-bookr
+WorkingDirectory=/home/bookr/bookr
+ExecStart=/home/bookr/bookr-venv/bin/gunicorn bookr.wsgi:application
+ExecReload=/bin/kill -s HUP $MAINPID
+KillMode=mixed
+TimeoutStopSec=5
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

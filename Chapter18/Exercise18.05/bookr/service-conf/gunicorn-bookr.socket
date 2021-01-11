@@ -1,0 +1,10 @@
+[Unit]
+Description=Bookr Gunicorn Socket
+
+[Socket]
+ListenStream=/run/gunicorn-bookr.sock
+User=www-data
+Mode=600
+
+[Install]
+WantedBy=sockets.target

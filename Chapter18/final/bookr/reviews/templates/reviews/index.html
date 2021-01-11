@@ -1,0 +1,24 @@
+{% extends 'reviews/base.html' %}
+{% load static %}
+{% block content %}
+  <h2>Welcome to Bookr!</h2>
+  {% if viewed_books %}
+  Recently viewed books:
+  <ul>
+      {% for book in viewed_books %}
+      <li><a href="/books/{{ book.id }}">{{ book.title }}</a></li>
+      {% endfor %}
+  </ul>
+  {% endif %}
+  <h4>Recent Reviews</h4>
+  <div id="recent_reviews"></div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script src="{% static 'recent-reviews.js' %}" type="text/babel"></script>
+  <script type="text/babel">
+    ReactDOM.render(<RecentReviews url="{% url 'api:review-list' %}?limit=6" />,
+        document.getElementById('recent_reviews')
+    );
+  </script>
+{% endblock %}
