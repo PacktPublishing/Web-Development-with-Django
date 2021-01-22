@@ -4,7 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/PacktPublishing/Web-Development-with-Django.svg)](https://github.com/PacktPublishing/Web-Development-with-Django/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/PacktPublishing/Web-Development-with-Django/pulls)
 
-This is the repository for [Web Development with Django], published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
+This is the repository for Web Development with Django, published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## Requirements and Setup
 <a href=""><img src="" alt="Web Development with Django" height="280px" width="230px" align="right" this.target="_blank"></a>
