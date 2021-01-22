@@ -4,15 +4,15 @@
 [![GitHub stars](https://img.shields.io/github/stars/PacktPublishing/Web-Development-with-Django.svg)](https://github.com/PacktPublishing/Web-Development-with-Django/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/PacktPublishing/Web-Development-with-Django/pulls)
 
-This is the repository for [Web Development with Django](https://www.amazon.com/MongoDB-Workshop-Interactive-Approach-Learning/dp/1839210648/ref=sr_1_1?dchild=1&keywords=MongoDB%20Fundamentals&qid=1611064650&s=books&sr=1-1&utm_source=github&utm_medium=repository&utm_campaign=9781839210648&utm_term=MongoDB&utm_content=MongoDB%20Fundamentals), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
+This is the repository for [Web Development with Django], published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## Requirements and Setup
-<a href="https://www.amazon.com/MongoDB-Workshop-Interactive-Approach-Learning/dp/1839210648/ref=sr_1_1?dchild=1&keywords=MongoDB%20Fundamentals&qid=1611064650&s=books&sr=1-1&utm_source=github&utm_medium=repository&utm_campaign=9781839210648&utm_term=MongoDB&utm_content=MongoDB%20Fundamentals"><img src="https://github.com/PacktPublishing/MongoDB-Fundamentals/blob/master/MongoDB%20Fundamentals.png" alt="MongoDB Fundamentals" height="280px" width="230px" align="right" this.target="_blank"></a>
+<a href=""><img src="" alt="Web Development with Django" height="280px" width="230px" align="right" this.target="_blank"></a>
 
 To get started with the project files, you'll need to:
 1. Install [Python](https://www.python.org/downloads/)
 2. Install [PyCharm](https://www.jetbrains.com/help/pycharm/installation-guide.html#standalone)
-3. Install [Visual Studio Code](https://sqlitebrowser.org/dl/)
+3. Install [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
 
 
 ## About Web Development with Django
@@ -28,6 +28,6 @@ Django is a popular Python-based framework for web application development. Like
 
 ## Related Workshops
 If you've found this repository useful, you might want to check out some of our other workshop titles:
-* [The JavaScript Workshop](https://www.amazon.in/JavaScript-Workshop-Interactive-Approach-Learning-ebook/dp/B0824584WF)
-* [The React Workshop](https://www.amazon.in/React-Workshop-Interactive-Approach-Learning/dp/183864556X)
-* [Front-End Development with Vue.js](https://www.amazon.com/Front-End-Development-Projects-Vue-js-applications-ebook/dp/B08M3J514S)
+* [The JavaScript Workshop](https://www.amazon.com/JavaScript-Workshop-Interactive-Approach-Learning-ebook/dp/B0824584WF/ref=sr_1_1?dchild=1&keywords=The%20JavaScript%20Workshop&qid=1611056880&sr=8-1&utm_source=GitHub&utm_medium=Repository&utm_campaign=9781838641917&utm_term=JavaScript&utm_content=The%20JavaScript%20Workshop)
+* [The React Workshop](https://www.amazon.com/React-Workshop-Interactive-Approach-Learning-ebook/dp/B082VG6JCL/ref=sr_1_1?dchild=1&keywords=The%20React%20Workshop&qid=1611056710&sr=8-1&utm_source=GitHub&utm_medium=Repository&utm_campaign=9781838645564&utm_term=React&utm_content=The%20React%20Workshop)
+* [Front-End Development with Vue.js](https://www.amazon.com/Front-End-Development-Projects-Vue-js-applications-dp-1838984828/dp/1838984828/ref=mt_other?_encoding=UTF8&me=&qid=1611065499&utm_source=github&utm_medium=repository&utm_campaign=9781838984823&utm_term=Vue&utm_content=Front-End%20Development%20Projects%20with%20Vue.js)
