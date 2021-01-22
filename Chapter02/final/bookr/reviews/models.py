@@ -63,4 +63,4 @@ class Review(models.Model):
                                        help_text="The date and time the review was last edited.")
     creator = models.ForeignKey(auth.get_user_model(), on_delete=models.CASCADE)
     book = models.ForeignKey(Book, on_delete=models.CASCADE,
-                             help_text="The Book that this review is for.")
+                             help_text="The Book that this review is for.") 
