@@ -26,7 +26,7 @@ Django is a popular Python-based framework for web application development. Like
 * Develop a RESTful API and JavaScript code that communicates with it 
 * Connect to a database such as PostgreSQL 
 
-## Related Workshops
+## Related Workshops and Books
 If you've found this repository useful, you might want to check out some of our other workshop titles:
 * [The JavaScript Workshop](https://www.amazon.com/JavaScript-Workshop-Interactive-Approach-Learning-ebook/dp/B0824584WF/ref=sr_1_1?dchild=1&keywords=The%20JavaScript%20Workshop&qid=1611056880&sr=8-1&utm_source=GitHub&utm_medium=Repository&utm_campaign=9781838641917&utm_term=JavaScript&utm_content=The%20JavaScript%20Workshop)
 * [The React Workshop](https://www.amazon.com/React-Workshop-Interactive-Approach-Learning-ebook/dp/B082VG6JCL/ref=sr_1_1?dchild=1&keywords=The%20React%20Workshop&qid=1611056710&sr=8-1&utm_source=GitHub&utm_medium=Repository&utm_campaign=9781838645564&utm_term=React&utm_content=The%20React%20Workshop)
