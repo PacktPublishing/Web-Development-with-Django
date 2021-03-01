@@ -7,7 +7,7 @@
 This is the repository for Web Development with Django, published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
 ## Requirements and Setup
-<a href=""><img src="" alt="Web Development with Django" height="280px" width="230px" align="right" this.target="_blank"></a>
+<a href=""><img src="https://github.com/PacktPublishing/Web-Development-with-Django/blob/master/Web%20Development%20with%20Django.png" alt="Web Development with Django" height="280px" width="230px" align="right" this.target="_blank"></a>
 
 To get started with the project files, you'll need to:
 1. Install [Python](https://www.python.org/downloads/)
