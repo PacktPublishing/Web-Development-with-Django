@@ -1,3 +1,7 @@
+## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/B15509?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
+-----
+For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
+
 # Web Development with Django
 [![GitHub issues](https://img.shields.io/github/issues/PacktPublishing/Web-Development-with-Django.svg)](https://github.com/PacktPublishing/Web-Development-with-Django/issues)
 [![GitHub forks](https://img.shields.io/github/forks/PacktPublishing/Web-Development-with-Django)](https://github.com/PacktPublishing/Web-Development-with-Django/network)
