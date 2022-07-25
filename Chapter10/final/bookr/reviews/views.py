@@ -34,12 +34,12 @@ def book_search(request):
                 for book in contributor.book_set.all():
                     books.add(book)
 
-        lname_contributors = \
-            Contributor.objects.filter(last_names__icontains=search)
+            lname_contributors = \
+                Contributor.objects.filter(last_names__icontains=search)
 
-        for contributor in lname_contributors:
-            for book in contributor.book_set.all():
-                books.add(book)
+            for contributor in lname_contributors:
+                for book in contributor.book_set.all():
+                    books.add(book)
 
         if request.user.is_authenticated:
             search_history.append([search_in, search])
