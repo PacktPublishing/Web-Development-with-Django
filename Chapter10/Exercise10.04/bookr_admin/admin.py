@@ -15,4 +15,4 @@ class BookrAdmin(admin.AdminSite):
         url_patterns = [
             path("admin_profile", self.admin_view(self.profile_view))
         ]
-        return urls + url_patterns
+        return url_patterns + urls
