@@ -81,5 +81,5 @@ The Talisman,StephenKing@example.com,CO_AUTHOR,,,
 ,,,,,
 content:Review,,,,,
 review_content,review_rating,review_date_created,review_date_edited,review_creator,review_book
-A must read for all,5,2020-01-04 16:31:40.376237,2020-01-04 16:31:40.376237,peterjones@test.com,Advanced Deep Learning with Keras
-An ok read,3,2020-01-04 16:31:40.376237,2020-01-04 16:31:40.376237,marksandler@test.com,Advanced Deep Learning with Keras
+A must read for all,5,2020-01-04,2020-01-04 16:31:40.376237,peterjones@test.com,Advanced Deep Learning with Keras
+An ok read,3,2020-01-04,2020-01-04 16:31:40.376237,marksandler@test.com,Advanced Deep Learning with Keras
